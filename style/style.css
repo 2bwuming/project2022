@@ -1,0 +1,174 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} */
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    background: green;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_ul{
+    display: flex;
+    gap: 62px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    margin: 13px auto 15px;
+    background: rgb(251, 253, 251);
+}
+
+
+.header_link{
+Font size: 14px;
+Line height: 14px;
+color: green;
+Line height: 85%;
+Align: Left;
+Vertical align: Top;
+text-decoration: none;
+
+}
+
+.button{
+    font-size: 14px;
+    line-height: 14px;
+    background: yellow;
+    color: green;
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    border: none;
+
+}
+.button:hover{
+    background: rgb(135, 216, 29);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main{ 
+    background: green;
+    padding: 58px 0 59px; 
+}
+
+.main_title{    
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 61px;
+    max-width: 470px; 
+}
+
+.main_title-yellow{
+    color: yellow;
+}
+
+.main_text{
+    Font size: 18px;
+    Line height: 30px;
+    max-width: 438px;
+    margin: 18px 0;    
+}
+
+.main_text-bold{
+    font-weight: bold;
+}
+
+.main_input{
+    height: 40px;
+    width: 268px;
+    border: 1px solid yellow ;
+    border-radius: 20px;
+    padding-left: 28px;
+}
+
+.main_input::placeholder{
+    Font size: 15px
+    Line height: 21px
+    rgba(0, 0, 0, 0.27)
+}
+
+.main_input:focus{outline: none; 
+}
+
+.main_button{
+    height: 45px;
+    width: 187px;
+    border-radius: 28px;
+    margin-left: 9px;
+}
+
+
+.footer{
+    background: yellow; 
+    height: 156px;
+    width: auto;
+    margin:0 auto;
+     
+}
+
+.footer_position{
+    margin: 67px 0 68px;
+}
+
+.footer_container{
+    max-width: 1250px;
+    margin: 0 auto;
+    background: yellow;
+}
+
+
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer_link{
+    Font size: 14px;
+    Line height: 14px;
+    color: green;
+    Line height: 85%;
+    Align: Left;
+    Vertical align: Top;
+    text-decoration: none;
+}
+
+
+.footer_button{
+    font-size: 14px;
+    line-height: 14px;
+    background: green;
+    color: yellow;
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    border: none;
+}
+
+.footer_button:hover{
+    background: rgb(135, 216, 29);
+    transition: 1s;
+    cursor: pointer;
+}
+ 
+.footer_ul{
+    display: flex;
+    gap: 74px;
+}
